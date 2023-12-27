@@ -6,7 +6,7 @@ Refer 'data' folder to get the train and test datasets.
 Implemented seven classification techniques - Naïve Bayes Classifier, Logistic Regression, Support Vector Machine(SVM), XGBoost, K-Nearest Neighbors, Random Forest and Multi-Layer Perceptron(MLP) classifier models. For each of these models, different hyper parameters are applied using GridSearchCV and the best hyper parameters are selected. 
 
 # Feature Engineering
-New features are created and then the best are used for training, validation and testing purposes.
+New features are created and then the best selected features using Recursive Feature Elimination are used for training, validation and testing purposes.
 
 # Results 
 Note: Training and Validation split is kept 90 is to 10. And a different dataframe for testing.
